@@ -1,0 +1,40 @@
+body{
+    margin: 2cm;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.first-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.third-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+img{
+    padding: 50px;
+    height: 300px;
+}

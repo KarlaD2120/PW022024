@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.first-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    padding: 90px;
+    height: 400px;
+    width: 400px;
+}
